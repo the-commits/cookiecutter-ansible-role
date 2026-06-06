@@ -1,0 +1,25 @@
+---
+galaxy_info:
+  role_name: {{ cookiecutter.role_name }}
+  author: {{ cookiecutter.author }}
+  description: {{ cookiecutter.description }}
+  license: {{ cookiecutter.license }}
+  min_ansible_version: "{{ cookiecutter.min_ansible_version }}"
+  platforms:
+    - name: EL
+      versions:
+        - "8"
+        - "9"
+    - name: Ubuntu
+      versions:
+        - jammy
+        - noble
+    - name: Debian
+      versions:
+        - bullseye
+        - bookworm
+    - name: ArchLinux
+      versions:
+        - all
+  galaxy_tags: []
+dependencies: []

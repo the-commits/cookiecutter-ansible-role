@@ -1,0 +1,10 @@
+---
+- name: Verify
+  hosts: all
+  become: true
+  gather_facts: true
+  tasks:
+    - name: Example assertion
+      ansible.builtin.assert:
+        that: true
+        msg: "Replace with real verification tasks"

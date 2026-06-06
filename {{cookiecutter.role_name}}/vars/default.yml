@@ -1,0 +1,4 @@
+---
+# OS-specific variables for {{ cookiecutter.role_name }}
+# {{ cookiecutter.role_name }}_package: "{{ cookiecutter.role_name }}"
+# {{ cookiecutter.role_name }}_service_name: "{{ cookiecutter.role_name }}"

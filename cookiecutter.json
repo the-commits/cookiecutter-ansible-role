@@ -1,0 +1,14 @@
+{
+    "role_name": "my_role",
+    "namespace": "tjenamors",
+    "author": "the-commits",
+    "description": "An Ansible role to ...",
+    "min_ansible_version": "2.14",
+    "license": ["MIT", "BSD-3-Clause", "GPL-3.0-only", "Proprietary"],
+    "create_molecule": ["yes", "no"],
+    "_copy_without_render": [
+        "*.yml",
+        "*.yaml",
+        "*.j2"
+    ]
+}

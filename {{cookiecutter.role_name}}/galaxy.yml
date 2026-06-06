@@ -1,0 +1,13 @@
+namespace: {{ cookiecutter.namespace }}
+name: {{ cookiecutter.role_name }}
+version: 1.0.0
+readme: README.md
+authors:
+  - {{ cookiecutter.author }}
+description: {{ cookiecutter.description }}
+license:
+  - {{ cookiecutter.license }}
+tags: []
+dependencies: {}
+repository: https://git.sr.ht/~{{ cookiecutter.author }}/{{ cookiecutter.role_name }}
+issues: https://git.sr.ht/~{{ cookiecutter.author }}/{{ cookiecutter.role_name }}
