@@ -9,5 +9,5 @@ license:
   - {{ cookiecutter.license }}
 tags: []
 dependencies: {}
-repository: https://git.sr.ht/~{{ cookiecutter.author }}/{{ cookiecutter.role_name }}
-issues: https://git.sr.ht/~{{ cookiecutter.author }}/{{ cookiecutter.role_name }}
+repository: https://{{ cookiecutter.git_host }}/~{{ cookiecutter.git_user }}/{{ cookiecutter.role_name }}
+issues: https://{{ cookiecutter.git_host }}/~{{ cookiecutter.git_user }}/{{ cookiecutter.role_name }}

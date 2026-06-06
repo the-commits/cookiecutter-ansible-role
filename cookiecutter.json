@@ -4,11 +4,14 @@
     "author": "the-commits",
     "description": "An Ansible role to ...",
     "min_ansible_version": "2.14",
+    "git_host": "git.sr.ht",
+    "git_user": "{{ cookiecutter.author }}",
     "license": ["MIT", "BSD-3-Clause", "GPL-3.0-only", "Proprietary"],
     "create_molecule": ["yes", "no"],
     "_copy_without_render": [
         "*.yml",
         "*.yaml",
         "*.j2"
-    ]
+    ],
+    "_extensions": ["jinja2_time.TimeExtension"]
 }
