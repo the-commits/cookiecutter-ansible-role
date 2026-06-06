@@ -6,7 +6,7 @@
     "min_ansible_version": "2.14",
     "git_host": "git.sr.ht",
     "git_user": "{{ cookiecutter.author }}",
-    "license": ["MIT", "BSD-3-Clause", "GPL-3.0-only", "Proprietary"],
+    "license": ["AGPL-3.0", "MIT", "BSD-3-Clause", "GPL-3.0-only", "Proprietary"],
     "create_molecule": ["yes", "no"],
     "_copy_without_render": [
         "*.yml",
