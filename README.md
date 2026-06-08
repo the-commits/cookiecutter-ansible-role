@@ -23,11 +23,18 @@ You'll be prompted for:
 | `git_user` | *(author)* | User/org on the git host |
 | `license` | `MIT` | License type |
 | `create_molecule` | `yes` | Scaffold molecule tests |
+| `mirror_to_github` | `yes` | Auto-create public GitHub mirror |
+
+When `mirror_to_github` is `yes`, the template generates a `.builds/push.yml`
+for automated GitHub mirroring and runs `gh repo create --public` to set up
+the mirror repo.
 
 ## Output
 
 ```
 my_role/
+├── .builds/          # GitHub mirror build manifest (if mirror_to_github)
+├── .github/          # Issue/PR redirects to sourcehut
 ├── defaults/
 ├── handlers/
 ├── meta/
@@ -37,6 +44,7 @@ my_role/
 ├── molecule/default/
 ├── galaxy.yml
 ├── AGENTS.md
+├── CONTRIBUTING.md   # Points contributors to sourcehut
 ├── CHANGELOG.md
 ├── LICENSE
 └── README.md
