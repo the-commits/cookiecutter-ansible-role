@@ -42,6 +42,13 @@ my_role/
 └── README.md
 ```
 
+## Related Templates
+
+- **`cookiecutter-ansible-role`** (this repo) — for standalone roles (system config, SSH, etc.)
+- **`cookiecutter-ansible-docker-compose-role`** — for roles that deploy Docker Compose stacks.
+  Use this when your role deploys containers via `docker compose`. It includes default
+  resource limits (512 MB RAM, 1 vCPU) and `deploy.resources` in the generated compose file.
+
 ## Requirements
 
 - Python 3.8+
