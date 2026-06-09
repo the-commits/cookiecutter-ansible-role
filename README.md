@@ -24,6 +24,7 @@ You'll be prompted for:
 | `license` | `MIT` | License type |
 | `create_molecule` | `yes` | Scaffold molecule tests |
 | `mirror_to_github` | `yes` | Auto-create public GitHub mirror |
+| `secret_uuid` | *(sr.ht secret UUID)* | build.sr.ht secret for GitHub PAT |
 
 When `mirror_to_github` is `yes`, the template generates a `.builds/push.yml`
 for automated GitHub mirroring and runs `gh repo create --public` to set up
