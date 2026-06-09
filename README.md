@@ -21,7 +21,7 @@ You'll be prompted for:
 | `min_ansible_version` | `2.14` | Minimum Ansible version |
 | `git_host` | `git.sr.ht` | Git hosting provider domain |
 | `git_user` | *(author)* | User/org on the git host |
-| `license` | `MIT` | License type |
+| `license` | `AGPL-3.0` | License type |
 | `create_molecule` | `yes` | Scaffold molecule tests |
 | `mirror_to_github` | `yes` | Auto-create public GitHub mirror |
 | `secret_uuid` | *(sr.ht secret UUID)* | build.sr.ht secret for GitHub PAT |
