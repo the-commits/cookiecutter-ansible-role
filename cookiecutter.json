@@ -9,6 +9,7 @@
     "license": ["AGPL-3.0", "MIT", "BSD-3-Clause", "GPL-3.0-only", "Proprietary"],
     "create_molecule": ["yes", "no"],
     "mirror_to_github": ["yes", "no"],
+    "github_mirror_secret": "00000000-0000-0000-0000-000000000000",
     "_copy_without_render": [
         "*.j2"
     ],

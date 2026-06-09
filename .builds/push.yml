@@ -5,7 +5,7 @@ packages:
 sources:
   - https://git.sr.ht:~the-commits/cookiecutter-ansible-role
 secrets:
-  - e3464eed-b716-485b-873c-a785ef7bf68b
+  - 00000000-0000-0000-0000-000000000000
 environment:
   repo_name: cookiecutter-ansible-role
   github_username: the-commits
