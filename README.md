@@ -1,3 +1,6 @@
+[![sourcehut](https://img.shields.io/badge/sourcehut-~the--commits/cookiecutter--ansible--role-2d6b9e?logo=sourcehut)](https://git.sr.ht/~the-commits/cookiecutter-ansible-role)
+[![GitHub mirror](https://img.shields.io/badge/GitHub-the--commits/cookiecutter--ansible--role-181717?logo=github)](https://github.com/the-commits/cookiecutter-ansible-role)
+
 # cookiecutter-ansible-role
 
 A [cookiecutter](https://github.com/cookiecutter/cookiecutter) template for
